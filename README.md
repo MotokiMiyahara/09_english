@@ -36,27 +36,27 @@
 アルファベットの大文字・小文字は問いません。
 
 ###【入出力例】
-- sample.in.txt
+[sample.in.txt]
 
-      7
-      123
-      4567
-      89012
-      0
-      -34
-      -5678901
-      1111111111
+    7
+    123
+    4567
+    89012
+    0
+    -34
+    -5678901
+    1111111111
 
 
-- sample.out.txt
+[sample.out.txt]
 
-      One Hundred Twenty Three
-      Four Thousand Five Hundred Sixty Seven
-      Eighty Nine Thousand Twelve
-      Zero
-      Negative Thirty Four
-      Negative Five Million Six Hundred Seventy Eight Thousand Nine Hundred One
-      One Billion One Hundred Eleven Million One Hundred Eleven Thousand One Hundred Eleven
+    One Hundred Twenty Three
+    Four Thousand Five Hundred Sixty Seven
+    Eighty Nine Thousand Twelve
+    Zero
+    Negative Thirty Four
+    Negative Five Million Six Hundred Seventy Eight Thousand Nine Hundred One
+    One Billion One Hundred Eleven Million One Hundred Eleven Thousand One Hundred Eleven
 
 ###【解答方法】
 
