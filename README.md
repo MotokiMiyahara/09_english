@@ -64,9 +64,13 @@
 
 
 answer_q1381.txt: 解答用テキストファイルです
+
 sample.in.txt: 入力サンプルです
+
 sample.out.txt: サンプルの解答です
+
 testdata.in.txt: これを入力ファイルとして解答してください
+
 words.txt: 英単語のデータファイルです（プログラム作成時にご利用ください）
 
 
