@@ -2,6 +2,7 @@
 ====
 
 使用例
+`./english.rb english/testdata.in.txt`
 
 
 ## 解答
