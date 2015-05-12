@@ -3,78 +3,85 @@
 
 使用例
 
-`./categorize.rb data/katsuo1000.csv`
-
-`./categorize.rb --config=sawara.txt data/katsuo1000.csv`
-
-`./categorize.rb --config=all_maguro.txt data/katsuo1000.csv`
 
 ## 解答
-[answer.txt](answer.txt) を参照してください。
+[answer_q1381.txt](answer_q1381.txt) を参照してください。
 
 
 ## 問題文
-###【問題】
 
-CSVファイルに、魚の名前と大きさ（整数値、単位はcm）が書かれています。
+###【英語でプリーズ！】
 
-このファイルを読み込み、“カツオ”の大きさを次のように分類してください。
+与えられた整数値を、英語に変換するプログラムを作成してください。
 
-    Sサイズ…50cm未満
+たとえば"123"なら"One Hundred Twenty Three"、"-50000"のような負の数は、"Negative Fifty Thousand"のように出力してください。
 
-    Mサイズ…50cm以上、75cm未満
+必要な英単語は1つのファイルにまとめてご用意しましたので、それをご活用ください（詳細は【解答方法】の項目をご覧ください）。
 
-    Lサイズ…75cm以上
-さらに、分類ごとのカツオの数、大きさの平均値を計算してください。
+###【入力】
 
-小数点以下は、小数第3位を四捨五入し、小数第2位まで出力してください。
+入力はテキストファイルで用意されています。これを標準入力から読み込んでください。
 
+入力ファイルの1行目には入力データ数N（1≦N≦100）が与えられます。
 
-###【テストデータ】
+2行目以降のN行分の整数値を英語に変換してください。
 
-[katsuo.zip]をダウンロード、展開すると、以下のファイルが含まれています。 `answer.txt`
+ただし、入力データは符号付き32bit整数の範囲で収まるものに限ります。
 
-解答用テキストファイルです。 `katsuo10.csv`
+###【出力】
 
-サンプルの入力データで、次のように書かれています。
+標準出力に、変換後の英語を出力してください（入力データ毎に改行してください）。
 
-    カツオ,86
-    カツオ,79
-    カツオ,36
-    カツオ,61
-    カツオ,69
-    カツオ,69
-    カツオ,37
-    カツオ,76
-    カツオ,37
-    カツオ,73
+アルファベットの大文字・小文字は問いません。
 
-この入力の場合は、
+###【入出力例】
+- sample.in.txt
 
-    S(3): 36.67cm
-    M(4): 68.00cm
-    L(3): 80.33cm
+    7
+    123
+    4567
+    89012
+    0
+    -34
+    -5678901
+    1111111111
 
 
-のように出力してください。
+- sample.out.txt
 
-`katsuo1000.csv`
-このファイルを入力データとしてください。
-
+    One Hundred Twenty Three
+    Four Thousand Five Hundred Sixty Seven
+    Eighty Nine Thousand Twelve
+    Zero
+    Negative Thirty Four
+    Negative Five Million Six Hundred Seventy Eight Thousand Nine Hundred One
+    One Billion One Hundred Eleven Million One Hundred Eleven Thousand One Hundred Eleven
 
 ###【解答方法】
-answer.txtに必要事項を記入し、テキストファイルのままアップロードしてください。
 
-※answer.txt以外のファイルをzipに固めてアップロードした場合は評価対象外となります。
+まずは[english.zip]をダウンロードし、展開してください。中には5つのファイルが含まれています。
 
-### 【注意】
 
-・出力結果に誤りがある場合は最低評価になります。
+answer_q1381.txt: 解答用テキストファイルです
+sample.in.txt: 入力サンプルです
+sample.out.txt: サンプルの解答です
+testdata.in.txt: これを入力ファイルとして解答してください
+words.txt: 英単語のデータファイルです（プログラム作成時にご利用ください）
 
-・問題本文だけでなく「解答評価のポイント」「その他注意事項」をよくお読みください。
 
-### 【出題URL】
-[https://codeiq.jp/q/832](https://codeiq.jp/q/832)
+answer_q1381.txtに必要事項を記入し、テキストファイルのままアップロードしてください。
+
+※answer_q1381.txt以外のファイルをzipに固めてアップロードした場合は評価対象外となります。
+
+###【注意】
+
+・出力結果に誤りがある場合は大幅に減点されます
+
+・問題本文だけでなく「解答評価のポイント」「その他注意事項」をよくお読みください
+
+
+## 【出題URL】
+[https://codeiq.jp/q/1381](https://codeiq.jp/q/1381)
 
 ## Author
 [MotokiMiyahara](https://github.com/MotokiMiyahara/)
